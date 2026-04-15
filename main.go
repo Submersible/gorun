@@ -11,7 +11,7 @@ import (
 	"syscall"
 )
 
-const version = "0.1.1"
+const version = "0.1.2"
 
 func usage() {
 	fmt.Fprintf(os.Stderr, `gorun %s — compile-on-change runner for single-file Go programs
